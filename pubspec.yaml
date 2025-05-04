@@ -1,0 +1,64 @@
+name: ecommerce_app
+description: A basic store-based e-commerce Flutter app with Firebase backend.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  
+  # Firebase
+  firebase_core: ^2.15.1
+  firebase_auth: ^4.9.0
+  cloud_firestore: ^4.9.1
+  firebase_storage: ^11.2.6
+  
+  # State Management
+  provider: ^6.0.5
+  
+  # UI Components
+  flutter_svg: ^2.0.7
+  cached_network_image: ^3.2.3
+  carousel_slider: ^4.2.1
+  flutter_rating_bar: ^4.0.1
+  intl: ^0.18.1
+  
+  # Utils
+  shared_preferences: ^2.2.1
+  image_picker: ^1.0.4
+  uuid: ^4.0.0
+  fluttertoast: ^8.2.2
+  shimmer: ^3.0.0
+  url_launcher: ^6.1.14
+  
+  # Routing
+  go_router: ^10.1.2
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+  
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
