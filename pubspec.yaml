@@ -12,8 +12,8 @@ dependencies:
   cupertino_icons: ^1.0.5
   
   # Firebase
-  firebase_core: ^2.15.1
-  firebase_auth: ^4.9.0
+  firebase_core: ^2.24.2 # Or the absolute latest version available
+  firebase_auth: ^4.15.3 # Or the absolute latest version available
   cloud_firestore: ^4.9.1
   firebase_storage: ^11.2.6
   

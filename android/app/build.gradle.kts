@@ -47,4 +47,7 @@ flutter {
 
 dependencies {
     implementation("androidx.multidex:multidex:2.0.1")
+    implementation(platform("com.google.firebase:firebase-bom:32.7.0"))
+    implementation("com.google.firebase:firebase-auth-ktx") // Firebase Authentication (Kotlin)
+    implementation("com.google.firebase:firebase-firestore-ktx") // Cloud Firestore (Kotlin)
 }
